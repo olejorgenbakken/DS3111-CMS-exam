@@ -24,6 +24,8 @@ Dette er en prosjekteksamen i emnet DS3111 – CMS (Content Management Systems).
 
 ## Oppgave
 
+Oppgaven var ganske rett fram: Lag en side med Wordpress, med så mange funksjoner du får til ([den var litt mer spesifikk](/oppgave.pdf)).
+
 ## Problemområde
 
 I Norge i dag er det svært lite fokus på hvordan teknologien vi omgås med påvirker samfunnet vi lever i. Vi har noen få nettsteder, som Tek.no (eid av Schibsted), NRK Beta og til dels E24, hvor de første to er rettet mot forbrukere, og E24 mot bedrifter og finanssektoren. Det er vanskelig å vite om det er høna eller egget som er problemet her, altså, er det for lite etterspørsel eller er det for lite produksjon av journalistikk som fokuserer på teknologi i møte med makt og kultur. Det er heller ikke gjort mye undersøkelser utenfor de interne gruppene i disse publikasjonene på dette, så det er vanskelig å finne informasjon om det for «oss andre». I denne oppgaven vil jeg ta utgangspunkt i at det er et ønske om mer journalistikk om dette krysningspunktet.
