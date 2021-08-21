@@ -1,6 +1,10 @@
 # Et magasin om møtet mellom teknologi, kultur og makt
 
-Dette er en prosjekteksamen i emnet DS3111 – CMS (Content Management Systems). Her er det lagd et wordpresstema og en plugin. Under kan du lese endelig leveranserapport (deler som ikke er relevant lenger – innlogging og administrering – er utelatt).
+Dette er en prosjekteksamen i emnet DS3111 – CMS (Content Management Systems). Her er det lagd et wordpresstema og en plugin.
+
+Under kan du lese endelig leveranserapport (deler som ikke er relevant lenger – innlogging og administrering – er utelatt).
+
+[/screenshots/homepage_desktop.png]
 
 ## Innhold
 
