@@ -4,7 +4,7 @@ Dette er en prosjekteksamen i emnet DS3111 – CMS (Content Management Systems).
 
 Under kan du lese endelig leveranserapport (deler som ikke er relevant lenger – innlogging og administrering – er utelatt).
 
-[/screenshots/homepage_desktop.png]
+![Homepage of site](https://github.com/olejorgenbakken/wordpress/blob/main/screenshots/homepage_desktop.png?raw=true)
 
 ## Innhold
 
