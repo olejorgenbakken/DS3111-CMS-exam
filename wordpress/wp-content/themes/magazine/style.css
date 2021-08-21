@@ -1,0 +1,362 @@
+/*
+	*	Theme name: Magaizine
+	*	Author: Ole Jørgen Bakken
+	*	Author URI: https://www.behance.net/olejorgenbakken
+	*	Version: 1.0
+	*	Description: Theme made as part of an exam at Kristiania University College
+	*	Tages: magazine, publication, three column, cover story
+	*
+	*
+*/
+:root {
+	--primary-color: #ffffff;
+	--text-color: #000000;
+	--max-width: 1200px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li,
+figcaption,
+input,
+button,
+legend {
+	font-family: 'Roboto', Arial, sans-serif;
+	color: var(--text-color);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+blockquote {
+	position: relative;
+	background: rgb(253, 219, 172);
+	padding: 30px 30px 10px 30px;
+	margin: 20px 0 30px 0;
+}
+
+blockquote::before {
+	position: absolute;
+	content: '"';
+	top: -1.8rem;
+	left: 20px;
+	font-size: 5rem;
+    font-family: 'Cinzel', serif;
+}
+
+blockquote::after {
+	position: absolute;
+	content: '"';
+	bottom: -4.8rem;
+	right: 20px;
+	font-size: 5rem;
+    font-family: 'Cinzel', serif;
+}
+
+figcaption {
+	margin-top: 5px;
+	font-size: .9rem;
+	text-align: center;
+}
+
+#global-header,
+#global-footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 30px 20px;
+	justify-content: flex-start;
+}
+
+#global-header h1,
+#global-footer h1 {
+	padding: 5px 13px;
+	border: 2px solid white;
+	letter-spacing: 2px;
+}
+
+#global-header h1,
+#global-footer h1 {
+	padding: 5px 13px;
+	border: 2px solid white;
+	letter-spacing: 2px;
+	background: var(--text-color);
+	color: var(--primary-color);
+	font-weight: 900;
+}
+
+#global-header a,
+#global-footer a {
+	text-decoration: none;
+	font-weight: 700;
+}
+
+#global-header, .footer-content {
+	max-width: var(--max-width);
+	margin: 0 auto;
+}
+
+.menu-global-menu-container .menu {
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#global-footer {
+	margin: 30px 0 0 0;
+	padding: 80px 20px;
+	background: var(--text-color);
+}
+
+#global-footer * {
+	color: var(--primary-color);
+}
+
+#global-footer h1 {
+	background: var(--primary-color);
+	color: var(--text-color);
+}
+
+.footer-content {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.menu-global-menu-container .menu * {
+	color: var(--text-color);
+}
+
+.menu-global-menu-container .menu>li {
+	margin-left: 20px;
+}
+
+main {
+	position: relative;
+	z-index: 0;
+}
+
+.homepage {
+	width: 100%;
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 24px;
+	row-gap: 33px;
+}
+
+.homepage article {
+	width: 100%;
+	padding: 0px 10px;
+}
+
+.homepage article h2 {
+	width: 99%;
+}
+
+article a {
+	color: rgb(79, 79, 255);
+	text-decoration: none;
+}
+
+.homepage article a {
+	color: inherit;
+}
+
+.homepage figure {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+}
+
+figure img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.homepage .cover-story h2,
+.cover-story header h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	hyphens: auto;
+}
+
+.homepage .post {
+	position: relative;
+	background: var(--primary-color);
+	border-radius: 1px;
+	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-ms-border-radius: 1px;
+	-o-border-radius: 1px;
+}
+
+.post .image {
+	position: relative;
+	height: 240px;
+	overflow: hidden;
+}
+
+.post .image img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.homepage .post h2 {
+	font-size: 1.5rem;
+	margin-top: 5px;
+	padding: 0 10px 15px 10px;
+	color: var(--text-color);
+}
+
+.page .content figure {
+	height: 330px;
+}
+
+.page .content form {
+	width: 100%;
+}
+
+.page .content fieldset {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 100px;
+	gap: 10px;
+	padding: 10px 20px 20px 20px;
+	border: 1px solid black;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+.page .content input, .page .content button {
+	margin: 5px 0 0 0;
+}
+
+.page .content input {
+	border-radius: 2px;
+	border: 2px solid black;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	padding: 10px;
+}
+
+.page .content button {
+	background: var(--text-color);
+	color: var(--primary-color);
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border: none;
+}
+
+.page .content legend {
+	font-size: 1.1rem;
+	font-weight: 700;
+	padding: 0 4px;
+}
+
+@media only screen and (max-width: 780px) {
+	.homepage {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.homepage .cover-story {
+		grid-column: 1 / span 2;
+	}
+
+	.related-posts {
+		grid-column: 1 / span 2;
+		grid-template-columns: 1fr 1fr;
+		padding: 20px 0 30px 20px;
+	}
+
+	.related-posts .post:last-of-type {
+		display: none;
+	}
+
+	.default-post .intro h2 {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+	#global-header, .footer-content {
+		flex-direction: column;
+	}
+
+	#global-header h1, .footer-content h1 {
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	.related-posts, .homepage {
+		grid-template-columns: 1fr;
+	}
+
+	.homepage {
+		column-gap: unset;
+	}
+
+	.homepage .post, .related-posts {
+		grid-column: 1;
+	}
+
+	.related-posts {
+		row-gap: 30px;
+	}
+
+	.related-posts header {
+		margin-bottom: -30px;
+	}
+}

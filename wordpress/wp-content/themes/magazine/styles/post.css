@@ -1,0 +1,114 @@
+/* STYLES FOR POSTS DEFAULT POSTS */
+h2 {
+    font-size: 2rem;
+}
+
+.default-post {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.default-post .intro {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.default-post .intro h2 {
+    font-weight: 800;
+    width: 90%;
+    padding: 0 20px;
+    margin: 25px auto 10px auto;
+}
+
+.default-post .intro .image {
+    width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+    position: relative;
+}
+
+.info {
+    margin: 30px 0 0 0;
+}
+
+.info p:first-of-type {
+    margin: 0 0 13px 0;
+}
+
+.info .writer {
+    display: block;
+    font-weight: 700;
+}
+
+.info .writer a {
+    color: var(--text-color);
+}
+
+.default-post .content {
+    max-width: calc(var(--max-width)/1.7);
+    margin: 0 auto;
+}
+
+.content p {
+    font-size: 1.05rem;
+    margin: 0 0 25px 0;
+}
+
+.content p, .content ul {
+    line-height: 1.7rem;
+}
+
+.content h2, .content h3{
+    font-size: 1.3rem;
+    margin: 35px 0 5px 0;
+}
+
+.content iframe {
+    min-width: 100%;
+    min-height: 330px;
+}
+
+.content figure {
+    margin: 0 0 30px 0;
+}
+
+.content figure img {
+    position: relative;
+}
+
+.content::after {
+    display: block;
+    content: '';
+    width: 100%;
+    margin-top: 35px;
+    height: 1px;
+    background: black;
+}
+
+.single .related-posts {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.single .related-posts header h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    text-shadow: none;
+}
+
+.content .info {
+    margin: 50px 0 -15px 0;
+}
+
+.content ul {
+    padding-left: 15px;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}

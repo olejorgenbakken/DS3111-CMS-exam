@@ -1,0 +1,63 @@
+/*
+Wordpress Popular Posts plugin stylesheet
+Developed by Hector Cabrera
+cabrerahector.com | @cabrerahector
+*/
+
+/* ENDRET */
+
+body {
+    overflow-x: hidden;
+}
+
+.related-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 1 / span 3;
+    column-gap: 20px;
+    padding: 60px calc(50vw - 50%) 70px calc(50vw - 50%);
+    margin: 30px calc(-50vw + 50%);
+}
+
+.related-posts:last-of-type {
+    margin: 30px calc(-50vw + 50%) 0 calc(-50vw + 50%);
+}
+
+.related-posts a {
+    color: initial;
+}
+
+.related-posts * {
+    text-decoration: none;
+    color: white;
+}
+
+.related-posts header {
+    grid-column: 1 / span 3;
+    padding: 0 0 10px 0;
+}
+
+.related-posts header h2 {
+    text-shadow: 0 0 2px black;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 0 10px 15px 10px;
+    color: var(--primary-color);
+}
+
+.related-posts h3 {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 0 10px 15px 10px!important;
+    color: var(--text-color);
+}
+
+#facebook {
+    grid-row: 4;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/rJoU3962IxjzwDJCH3r2LnVu1tw=/0x0:2040x1360/1220x813/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/62705510/acastro_180828_1777_facebook_0001.0.0.jpg");
+}
+
+#sikkerhet {
+    grid-row: 8;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/ZpaMCDe6LZCD1igo8NY7GAuNSJw=/0x0:2040x1360/1220x813/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/58368967/acastro__171016_1777_0001_v6.0.jpg");
+}
