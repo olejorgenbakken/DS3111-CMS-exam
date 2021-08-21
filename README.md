@@ -4,23 +4,23 @@ Dette er en prosjekteksamen i emnet DS3111 – CMS (Content Management Systems).
 
 ## Innhold
 
-1. Oppgave
-2. Problemområde
-3. Konsept
-   1. User stories
-   2. Prototype
-4. Endringer i Wordpress installasjon
-5. Temavalg
-6. Plugins
-7. Produksjon av tekst og bilde
-   1. Tekst
-   2. Bilder
-   3. Oppdatering av innhold
-8. Universell utforming
-   1. Grafikk
-   2. Grid og headlines
-   3. Validering av siden
-9. Gjennomgang av PHP filene
+1. [Oppgave](#oppgave)
+2. [Problemområde](#problemområde)
+3. [Konsept](#konsept)
+   - User stories
+   - Prototype
+4. [Endringer i installasjon](#endringer-i-installasjon)
+5. [Temavalg](#temavalg)
+6. [Plugins](#plugin)
+7. [Tekst og bilder](#tekst-og-bilder)
+   - Tekst
+   - Bilder
+   - Oppdatering av innhold
+8. [Universell utforming](#universell-utforming)
+   - Grafikk
+   - Grid og headlines
+   - Validering av siden
+9. [Gjennomgang av PHP-filene](#Gjennomgang-av-PHP-filene)
 
 ## Oppgave
 
@@ -53,7 +53,7 @@ Som tidligere nevnt er målgruppen så bred at det ble naturlig å velge en enke
 
 Forsiden er en enkel side med struktur satt med grid, brutt opp av seksjoner med «mest leste» saker fra ulike kategorier. Headeren og footeren er like enkel, det vil heller ikke være noen dropdown elementer i løsningen, da det ikke er et så stort system at det vil sees på som nødvendig.
 
-## Endringer i Wordpress installasjon
+## Endringer i installasjon
 
 | Setting    | Endring               | Beskrivelse                                                                                                                                                  |
 | ---------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -90,7 +90,7 @@ Her er en liste over alle plugins som er med i løsningen, hvorfor de er med, og
 
 _«Wordpress Popular Posts» endte opp med å bli brukt en del utenfor den tenkte use-casen. For eksempel da arkivsiden skulle utvikles ble det enklere å ta i bruk den for å hente alle innlegg som er i systemet enn å hente dem gjennom den tradisjonelle loopen. Problemet med denne løsningen er at siden den har et veldig spesifikt bruksområde er den ikke så åpen for endringer._
 
-## Produksjon av tekst og bilde
+## Tekst og bilder
 
 All teksten er hentet fra enten NRKBeta.no eller Tek.no, og det har ikke blitt gjort noen endringer på innholdet fra de er hentet annet enn når linker ble ødelagt eller lignende. Felles for alle bildene er at de er hentet med hjelp av URLer, noe som betyr at de eksisterer bare så lenge hostene velger å ha dem på samme sted i serveren. Dette er selvfølgelig ikke optimalt i en reell løsning, men det er en god erstatning for Wordpress innebygde media bibliotek for å holde serverstørrelsen nede.
 
