@@ -4,23 +4,23 @@ Dette er en prosjekteksamen i emnet DS3111 – CMS (Content Management Systems).
 
 ## Innhold
 
-- Oppgave
-- Problemområde
-- Konsept
-  - User stories
-  - Prototype
-- Endringer i Wordpress installasjon
-- Temavalg
-- Plugins
-- Produksjon av tekst og bilde
-  - Tekst
-  - Bilder
-  - Oppdatering av innhold
-- Universell utforming
-  - Grafikk
-  - Grid og headlines
-  - Validering av siden
-- Gjennomgang av PHP filene
+1. Oppgave
+2. Problemområde
+3. Konsept
+   1. User stories
+   2. Prototype
+4. Endringer i Wordpress installasjon
+5. Temavalg
+6. Plugins
+7. Produksjon av tekst og bilde
+   1. Tekst
+   2. Bilder
+   3. Oppdatering av innhold
+8. Universell utforming
+   1. Grafikk
+   2. Grid og headlines
+   3. Validering av siden
+9. Gjennomgang av PHP filene
 
 ## Oppgave
 
