@@ -25,6 +25,7 @@ Under kan du lese endelig leveranserapport (deler som ikke er relevant lenger �
    - Grid og headlines
    - Validering av siden
 9. [Gjennomgang av PHP-filene](#Gjennomgang-av-PHP-filene)
+10. [Ferdigstilt løsning](#ferdigstilt-løsning)
 
 ## Oppgave
 
